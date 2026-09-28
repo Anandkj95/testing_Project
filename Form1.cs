@@ -20,6 +20,11 @@ namespace AmProcess
         private void btn_Testing_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Done");
+            int a = 10;
+            if(a<10)
+            {
+                MessageBox.Show("a is lesser");
+            }
         }
     }
 }
