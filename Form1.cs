@@ -25,6 +25,8 @@ namespace AmProcess
             {
                 MessageBox.Show("a is lesser");
             }
+            int b=Convert.ToInt32(textBox1.Text);
+            MessageBox.Show(b.ToString());
         }
     }
 }
